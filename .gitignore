@@ -1,22 +1,15 @@
-# WordPress core
 wp-admin/
 wp-includes/
 
-# Contenu inutile
 wp-content/uploads/
 wp-content/cache/
-wp-content/upgrade/
 
-# Plugins (optionnel si tu veux pas les versionner)
-wp-content/plugins/
+# IMPORTANT → garder les thèmes
+!wp-content/themes/
+!wp-content/themes/**
 
-# Fichiers sensibles
+# optionnel plugins
+# !wp-content/plugins/
+
 wp-config.php
 .env
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
