@@ -1,6 +1,22 @@
-node_modules/
+# WordPress core
+wp-admin/
+wp-includes/
+
+# Contenu inutile
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+
+# Plugins (optionnel si tu veux pas les versionner)
+wp-content/plugins/
+
+# Fichiers sensibles
+wp-config.php
 .env
-dist/
-build/
-__pycache__/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
 *.log
